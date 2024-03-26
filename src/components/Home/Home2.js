@@ -22,18 +22,18 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in programming languages:
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Python, Javascript, TypeScript, Java, C++ and JSON </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are  &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Developing Software, Testing Software, Software Maintenance and Software Building </b> 
+                and areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Software Development.
                 </b>
               </i>
               <br />
