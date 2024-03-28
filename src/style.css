@@ -11,7 +11,7 @@ html {
     rgba(13, 11, 25, 0.863)
   );
 
-  --imp-text-color: #2f20f6;
+  --imp-text-color: #5BC8AC;
 }
 
 .blue {
@@ -57,18 +57,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #3b3b3c;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(127, 121, 216, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(135, 130, 235, 0.911);
   border-radius: 12px;
 }
 
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #2f20f6;
+  background: #5BC8AC;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -257,6 +257,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
+  background-color: #E8F3EE;
   /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg);  ##I do not think I will be needing this, but just in case I change my mind I will come back here. */
   background-position: top center;
   background-repeat: no-repeat;
@@ -281,17 +282,17 @@ button:focus {
 }
 
 .main-name {
-  color: #2f20f6;
+  color: #5BC8AC;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #2f20f6 !important;
+  color: #5BC8AC !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #2f20f6 !important;
+  color: #5BC8AC !important;
 }
 
 @media (max-width: 767px) {
@@ -321,6 +322,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-color: #E8F3EE;
 }
 
 .home-about-description {
@@ -358,7 +360,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: black !important;
+  background: #D2B48C !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -395,7 +397,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: white !important;
 }
 
 /* --------- */
@@ -439,7 +441,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #c088b9 !important;
 }
 /* --------- */
 /* Projects */
@@ -448,7 +450,8 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-color: #E8F3EE;
+  /* background-image: var(--section-background-color) !important; */
 }
 
 .project-card {
@@ -460,8 +463,8 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
+  box-shadow: 0 4px 5px 3px #D2B48C !important;
+  color: black !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
@@ -470,7 +473,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px #D2B48C !important;
 }
 
 .blog-card {
@@ -518,21 +521,21 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #1b1a2ea9 !important;
+  border-color: #1b1a2ea9 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #100f1bbc !important;
+  border-color: #100f1bbc !important;
 }
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: black !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -546,8 +549,9 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  background-color: #E8F3EE;
+  /* background-image: var(--section-background-color) !important; */
+  color: black !important;
 }
 
 .tech-icons {
@@ -555,12 +559,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid #D2B48C !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px #D2B48C !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -574,7 +578,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid #FFFAF0 !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -583,8 +587,8 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
-  background-color: transparent !important;
+  color: black !important;
+  background-color: #E8F3EE !important;
 }
 
 .about-activity {
@@ -606,8 +610,9 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-color: #E8F3EE;
+  color: black !important;
 }
 
 .resume {
@@ -727,21 +732,20 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #d2d3da !important;
-  border-color: #d2d3da ;
+  transition: all 0.3s ease-out 0s !important;
+  background-color: #D2B48C !important;
+  border-color: #D2B48C ;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
+  backdrop-filter: blur(15px) !important;
 }
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #1b1a2e2c !important;
-  border-color: #1b1a2e2c !important;
-  backdrop-filter: blur(15px) !important;
+  background-color: gold !important;
+  border-color: gold !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  opacity: 1 !important;
-  backdrop-filter: blur(15px) !important;
 }
 .fork-btn-inner::after {
   display: none !important;
