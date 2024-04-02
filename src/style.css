@@ -33,7 +33,6 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  /* background-image: url(./Assets/pre.svg); */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -258,7 +257,6 @@ button:focus {
   position: relative;
   z-index: -1;
   background-color: #E8F3EE;
-  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg);  ##I do not think I will be needing this, but just in case I change my mind I will come back here. */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -451,7 +449,6 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-color: #E8F3EE;
-  /* background-image: var(--section-background-color) !important; */
 }
 
 .project-card {
@@ -550,7 +547,6 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-color: #E8F3EE;
-  /* background-image: var(--section-background-color) !important; */
   color: black !important;
 }
 
@@ -610,7 +606,6 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  /* background-image: var(--section-background-color) !important; */
   background-color: #E8F3EE;
   color: black !important;
 }
